@@ -1,0 +1,36 @@
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, button, input, textarea, th, td, table, a, em, span, img, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { margin: 0; padding: 0; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { font-family: Arial, "Microsoft YaHei", sans-serif; font-size: 14px; background: #fff; }
+h1, h2, h3 { font-size: 14px; font-weight: normal; font-style: normal; }
+ul, li, dl, dt, dd { list-style: none; }
+input, select, img, button { vertical-align: middle; border: none; }
+button, input, textarea { border: 1px solid #ddd; border-radius: 0; background: transparent; -webkit-appearance: none; }
+input[type=checkbox] { -webkit-appearance: checkbox; }
+table { border-spacing: 0; border-collapse: collapse; }
+p { word-wrap: break-word; }
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:visited { color: #551a8b; }
+a[href], input[type="submit"], label[for], select, button, .pointer { cursor: pointer; }
+input, textarea, select { outline: none; }
+.clearfix { zoom: 1; }
+.clearfix:after { display: block; visibility: hidden; clear: both; overflow: hidden; height: 0; content: "."; }
+.floatl { float: left; }
+.floatr { float: right; }
+.textc { text-align: center; }
+
+@font-face { font-family: "icomoon"; font-weight: normal; font-style: normal;src: url("../fonts/icomoon.eot?9qhwob"); src: url("../fonts/icomoon.eot?9qhwob#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?9qhwob") format("truetype"),
+    url("../fonts/icomoon.woff?9qhwob") format("woff"),
+    url("../fonts/icomoon.svg?9qhwob#icomoon") format("svg");  }
+
+[class^="icon-"], [class*=" icon-"] { /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "icomoon" !important; font-weight: normal; font-style: normal; font-variant: normal; line-height: 1;text-transform: none; speak: none; 
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.icon-qq:before { content: "\f1d6"; }
+.icon-wechat:before { content: "\f1d7"; }
+.icon-weixin:before { content: "\f1d7"; }
+.icon-phone:before { content: "\e942"; }
