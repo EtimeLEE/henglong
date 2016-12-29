@@ -35,34 +35,16 @@ $(function() {
 	    // autoplay: 5000,
   	});
 
-  // 	var mySwiper3 = new Swiper ('.caseList', {
-	 //    loop: true,
-	 //    // 如果需要分页器
-	 //    pagination: '.swiper-pagination',
-	 //    paginationClickable :true,
-  // 	});
-
-  // 	var mySwiper4 = new Swiper ('.caseDetail', {
-	 //    loop: true,
-	 //    // 如果需要分页器
-	 //    pagination: '.swiper-pagination',
-	 //    paginationClickable :true,
-	 //    prevButton:'.swiper-button-prev',
-		// nextButton:'.swiper-button-next',
-  // 	});
-
 	/* floatBar */
-	$(".floatBar .item i").hover(function(){
-		$(this).siblings(".box").show();
-		$(this).css("color","#7a7a7a");
+	$(".floatBar .item").hover(function(){
+		$(this).find(".box").show();
+		$(this).find("i").css("color","#7a7a7a");
 	},function(){
-		$(this).siblings(".box").hide();
-		$(this).css("color","#d0d0d0");
+		$(this).find(".box").hide();
+		$(this).find("i").css("color","#d0d0d0");
 	});
 
 	/* about */
-	var aH = $(window).height() - 61;
-	$(".about .wrap").height(aH);
 	$(".about-box .btn a").first().addClass("active");
 	$(".about-box .txt .item").first().show();
 	$(".about-box .btn a").mouseenter(function(event) {
@@ -72,8 +54,6 @@ $(function() {
 	});
 
 	/* contact */
-	var cH = $(window).height() - 61;
-	$(".contact").height(aH);
 
 
 	/**** 手机端 ****/
@@ -87,4 +67,17 @@ $(function() {
     $(".nav ul").click(function (event) {
         event.stopPropagation();
     });
+
+    if($(window).width() < 640){
+  //   	var pH = $(window).height() - 45;
+		// $(".about .wrap").height(pH);
+
+    	$(".section2 .s2list li").click(function(){
+    		$(this).addClass("active").siblings().removeClass("active");
+    	});
+    }else{
+    	var dH = $(window).height() - 61;
+		$(".about .wrap").height(dH);
+		$(".contact").height(dH);
+    }
 });

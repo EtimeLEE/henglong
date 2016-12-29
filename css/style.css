@@ -92,7 +92,7 @@
 .section3 .s3Rbottom .p2:after {position: absolute; top: 16px; left: 0;display: block; width: 12px; height: 12px;  content: ""; border: 2px solid #31c5d2; border-radius: 8px; }
 .section3 .s3Rbottom .tel {position: absolute; right: 17px; bottom: 44px;  width: 207px; height: 129px; background: url(../images/s3tel-bg.png) no-repeat; }
 .section3 .s3Rbottom .tel h3 {font-size: 16px; line-height: 20px; padding-top: 30px;  padding-left: 26px; color: #1f2229; }
-.section3 .s3Rbottom .tel p {font-family: "Candara"; font-size: 30px; line-height: 30px;  padding-left: 26px; color: #1f2229; }
+.section3 .s3Rbottom .tel a {font-family: "Candara"; font-size: 30px; line-height: 30px;  padding-left: 26px; color: #1f2229; }
 .section3 .s3Rbottom .tel span {font-size: 16px; line-height: 30px;  margin-left: 95px; color: #1f2229; }
 
 .section4 {width: 100%; min-width: 1200px; padding-top: 25px;  background: #ca192b; }
@@ -123,7 +123,8 @@
 .section5 .s5p {font-size: 14px; font-weight: bold;  text-align: center; color: #fff; }
 .section5 .address { margin-top: 20px; text-align: center; }
 .section5 .address p.p1 { font-size: 14px; line-height: 28px; color: #fff; }
-.section5 .address p.tel span { font-family: "Candara"; font-size: 45px; line-height: 48px;padding-left: 23px; color: #fff; background: url(../images/phone-bg.png) no-repeat left center; }
+.section5 .address p.p1 a{ color: #fff; }
+.section5 .address p.tel a { font-family: "Candara"; font-size: 45px; line-height: 48px;padding-left: 23px; color: #fff; background: url(../images/phone-bg.png) no-repeat left center; }
 .section5 .QR-code { width: 300px; height: 300px; margin: 30px auto 0; }
 
 .section6 {width: 100%; min-width: 1200px; padding-top: 25px;  background: #1f2228; }
@@ -149,7 +150,7 @@
 .floatBar .item .phone-box { box-sizing: border-box; padding-top: 12px; }
 .floatBar .item .phone-box .tel-number { padding-top: 20px; padding-left: 23px; text-align: left; }
 .floatBar .phone-box .tel-number .p1 { font-family: "宋体"; font-size: 12px; line-height: 20px; color: #fff; }
-.floatBar .phone-box .tel-number .p2 { font-family: "Times New Roman"; font-size: 18px; line-height: 20px; color: #fff; }
+.floatBar .phone-box .tel-number .p2 a { font-family: "Times New Roman"; font-size: 18px; line-height: 20px; color: #fff; }
 .floatBar .item .qq-box { box-sizing: border-box; padding-top: 24px; text-align: left; }
 .floatBar .item .qq-box p {font-family: "宋体"; font-size: 12px; line-height: 24px;  margin-left: 27px; color: #fff; }
 .floatBar .item .qq-btn { width: 74px; height: 22px; margin: 9px auto 8px 27px; padding: 5px 7px; border: 1px solid #ca192b; border-radius: 4px; }
