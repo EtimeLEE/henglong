@@ -227,7 +227,7 @@
 .contact .QRcode img{ width: 216px; }
 .contact .QRcode p{ line-height: 34px; text-align: center; font-size: 16px; font-weight: bold; color: #000; }
 .contact .address{ width: 635px; }
-.contact .address .tel{ line-height: 80px; padding-left: 24px; background: url(../images/phone-bg.png) no-repeat left center; font-family: "Candara"; color: #1c1c1c; font-size: 26px; }
+.contact .address .tel{ line-height: 80px; padding-left: 24px; background: url(../images/phone-bg.png) no-repeat left center; font-family: "Candara"; color: #1c1c1c; font-size: 44px; }
 .contact .address .txt p{ font-family: "Times New Roman","微软雅黑"; font-size: 14px; font-weight: bold; color: #1c1c1c; line-height: 35px; }
 
 
