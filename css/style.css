@@ -11,7 +11,7 @@
 .header { width: 100%; min-width: 1200px; height: 60px; background: #1f2228; }
 .header .logo { font-family: "宋体"; font-size: 14px; line-height: 60px; color: #fff; }
 .header .nav li { line-height: 60px; float: left; background-size: 0;}
-.header .nav li a { font-family: "宋体"; font-size: 14px; font-weight: bold; display: block; padding: 0 30px; color: #fff; }
+.header .nav li a { font-family: "宋体"; font-size: 14px; display: block; padding: 0 30px; color: #fff; }
 .header .nav li a:hover, .header .nav li a.active { background: #e6000f; }
 
 .banner { width: 100%; min-width: 1200px; height: 790px; }
