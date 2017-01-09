@@ -207,16 +207,17 @@
 .about .about-box .btn a { font-size: .32rem; line-height: .64rem; display: block; width: 1.16rem; height: .64rem; margin-bottom: 2px; text-align: center; color: #fff; background: rgba(230, 0, 15,.35); }
 .about .about-box .btn a.active { background: rgba(230, 0, 15,.9); }
 .about .about-box .txt {float: none;  width: 100%; margin-top: .8rem; }
-.about .about-box .txt .item {width: 5.5rem;  padding-left: .1rem; }
+.about .about-box .txt .item {width: 5.5rem;  padding-left: .1rem; font-family: "微软正黑体"; }
+.about .about-box .txt .item img{ display: none;}
 .about .about-box .zz { padding-top: 7px; }
 .about .about-box .zz h2 { font-size: 36px; line-height: 80px; color: #fff; }
-.about .about-box .zz .p1 { font-size: 12px; font-weight: bold; line-height: 20px; color: #fff; }
-.about .about-box .zz .p2 { font-size: 14px; font-weight: bold; line-height: 40px; color: #fff; }
+.about .about-box .zz .p1 { font-size: 12px; line-height: 20px; color: #fff; }
+.about .about-box .zz .p2 { font-size: 14px; line-height: 40px; color: #fff; }
 
 .about .about-box .gy { display: none; }
 .about .about-box .gy h2 { font-size: 36px; line-height: 80px; color: #fff; }
-.about .about-box .gy .p1 { font-size: 12px; font-weight: bold; line-height: 24px; color: #fff; }
-.about .about-box .gy .p2 { font-size: 14px; font-weight: bold; line-height: 40px; color: #fff; }
+.about .about-box .gy .p1 { font-size: 12px; line-height: 24px; color: #fff; }
+.about .about-box .gy .p2 { font-size: 14px; line-height: 40px; color: #fff; }
 
 /* 联系我们 */
 .contact { position: relative; overflow: hidden; width: 100%; background: url(../images/contact-phone-bg.jpg) top center no-repeat; background-size: 100%; padding-top: .3rem; }
