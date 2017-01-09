@@ -57,18 +57,19 @@ $(function() {
 
 
 	/**** 手机端 ****/
-	$(".nav-btn").click(function (event) {
-        event.stopPropagation();
-        $(".nav ul").toggle();
-    });
-    $(document).click(function () {
-        $(".nav ul").hide();
-    });
-    $(".nav ul").click(function (event) {
-        event.stopPropagation();
-    });
 
     if($(window).width() < 640){
+    	$(".nav-btn").click(function (event) {
+	        event.stopPropagation();
+	        $(".nav ul").toggle();
+	    });
+	    $(document).click(function () {
+	        $(".nav ul").hide();
+	    });
+	    $(".nav ul").click(function (event) {
+	        event.stopPropagation();
+	    });
+    	
   //   	var pH = $(window).height() - 45;
 		// $(".about .wrap").height(pH);
 

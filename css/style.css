@@ -58,12 +58,13 @@
 .section2 .s2txt-phone{ display: none; }
 .section2 .s2txt p { font-family: "宋体"; font-size: 14px; line-height: 26px; color: #1f2229; }
 .section2 .s2list { width: 1200px; margin: 0 auto; padding-top: 82px; }
-.section2 .s2list li { float: left; width: 213px; height: 322px; margin: 0 43px 70px; cursor: pointer; transition: all 1s; transform: scale(.5); opacity: 0; }
+.section2 .s2list li { float: left; width: 300px; height: 322px; margin-bottom: 70px; cursor: pointer; transition: all 1s; transform: scale(.5); opacity: 0; }
 .section2 .s2list.on li { transform: scale(1); opacity: 1; }
-.section2 .s2list .img { line-height: 245px; width: 213px; height: 245px; transition: all 1s; text-align: center; background: url(../images/s2list-bg2.png) no-repeat; }
+.section2 .s2list .img { line-height: 245px; width: 213px; height: 245px; margin: 0 auto; transition: all 1s; text-align: center; background: url(../images/s2list-bg2.png) no-repeat; }
 .section2 .s2list li:hover .img {transform: scale(1.2);  background: url(../images/s2list-bg1.png); }
-.section2 .s2list .p1 { font-size: 18px; line-height: 26px; margin-top: 35px; text-align: center; color: #030303; }
-.section2 .s2list .p2 { font-family: "Sakkal Majalla"; font-size: 16px; font-weight: bold; text-align: center; letter-spacing: 5px; text-transform: uppercase; color: #000; }
+.section2 .s2list .txt{ width: 100%; height: 38px; margin-top: 38px; text-align: center; line-height: 38px; }
+.section2 .s2list .p1 { display: none; }
+.section2 .s2list .p2 { display: none; }
 
 .section3 .sTitle { background-image: url(../images/indexTitle-bg1.png); }
 .section3 .s3box1 {line-height: 90px;  width: 100%; height: 90px; background: #1f2229; }
@@ -185,9 +186,10 @@
 .caseDetail .txt p{ line-height: 26px; font-family: "宋体"; font-size: 12px; color: #6a6969; }
 .caseDetail .img{ width: 975px; float: right; }
 
-.caseDetail .btns{ position: absolute; width: 154px; height:42px; top: 0; left: 0; background: url(../images/btn-bg.png) no-repeat center center; }
+.caseDetail .btns{ position: absolute; width: 154px; height:42px; top: 0; left: 0;}
 .caseDetail .btns a{ position: absolute; display: block; width: 42px; height: 42px; background: #7d7d7d; margin: 0 4px; font-size: .5rem; line-height: 42px; font-family: "宋体"; color: #fff; text-align: center; top: 0;}
 .caseDetail .btns a:hover{ background: #e70014; }
+.caseDetail .btns a.back{ background: url(../images/btn-bg.png); left: 51px; }
 .caseDetail .btns a.prev{ left: 0; }
 .caseDetail .btns a.next{ right: 0; }
 
@@ -204,15 +206,18 @@
 .about .about-box .btn a{ display: block; width: 110px; height: 56px; text-align: center; line-height: 56px; font-size: 14px; color: #fff; font-weight: bold; background: rgba(230, 0, 15,0.35); margin-bottom: 1px; }
 .about .about-box .btn a.active{ background: rgba(230, 0, 15,0.9) }
 .about .about-box .txt{ width: 546px; height: 282px; }
-.about .about-box .txt .item{ padding-left: 10px; width: 550px; }
-.about .about-box .zz h2{ font-size: 75px; color: #fff; line-height: 90px; }
+.about .about-box .txt .item{ padding-left: 10px; width: 550px; display: none; }
+.about .about-box .item h2{ display: none; }
+.about .about-box .item .p1{ display: none; }
+.about .about-box .item .p2{ display: none; }
+/*.about .about-box .zz h2{ font-size: 75px; color: #fff; line-height: 90px; }
 .about .about-box .zz .p1{ font-size: 14px; color: #fff; line-height: 36px; font-weight: bold; margin: 15px 0; }
 .about .about-box .zz .p2{ font-size: 16px; color: #fff; line-height: 40px; font-weight: bold; }
 
 .about .about-box .gy{ display: none; }
 .about .about-box .gy h2{ font-size: 75px; color: #fff; line-height: 97px; }
 .about .about-box .gy .p1{ font-size: 14px; color: #fff; line-height: 36px; font-weight: bold; margin: 45px 0 55px; }
-.about .about-box .gy .p2{ font-size: 16px; color: #fff; line-height: 36px; font-weight: bold; }
+.about .about-box .gy .p2{ font-size: 16px; color: #fff; line-height: 36px; font-weight: bold; }*/
 
 
 /* 联系我们 */
@@ -223,7 +228,7 @@
 .contact .QRcode p{ line-height: 34px; text-align: center; font-size: 16px; font-weight: bold; color: #000; }
 .contact .address{ width: 635px; }
 .contact .address .tel{ line-height: 80px; padding-left: 24px; background: url(../images/phone-bg.png) no-repeat left center; font-family: "Candara"; color: #1c1c1c; font-size: 26px; }
-.contact .address .txt p{ font-size: 14px; color: #1c1c1c; line-height: 35px; }
+.contact .address .txt p{ font-family: "Times New Roman","微软雅黑"; font-size: 14px; font-weight: bold; color: #1c1c1c; line-height: 35px; }
 
 
 
@@ -240,6 +245,7 @@
 .newsBody .news-content h1{ text-align: center; line-height: 40px; font-size: 16px; font-weight: bold; color: #010101; }
 .newsBody .news-content .info{ text-align: center; line-height: 40px; font-family: "宋体"; color: #7f7f7f; font-size: 14px; }
 .newsBody .news-content .article{ margin: 25px auto 0; width: 730px; padding-bottom: 40px; }
+.newsBody .news-content .article p{ font-family: "宋体"; font-size: 14px; line-height: 30px; color: #7f7f7f; }
 .newsBody .news-aside{ width: 330px; }
 .newsBody .news-aside .news-list h2{ padding-top: 4px; line-height: 43px; font-size: 16px; font-weight: bold; color: #010101; }
 .newsBody .news-aside .news-list li{ line-height: 36px; padding-left: 16px; position: relative; font-family: "宋体"; font-size: 14px; }

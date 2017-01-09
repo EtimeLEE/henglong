@@ -64,6 +64,8 @@
 .section2 .s2list .img { line-height: 1.42rem; width: 1.42rem; height: 1.64rem; text-align: center; background: url(../images/s2list-bg2.png) no-repeat; background-size: 100%; }
 .section2 .s2list .img img { width: 100%; }
 .section2 .s2list li.active .img { background: url(../images/s2list-bg1.png) no-repeat; background-size: 100%; }
+.section2 .s2list .txt{ width: 100%; height: .38rem; text-align: center; line-height: .38rem; display: none; }
+.section2 .s2list .txt img{ height: 100%; }
 .section2 .s2list .p1 { font-size: .2rem; line-height: .6rem; text-align: center; color: #030303; }
 .section2 .s2list .p2 { display: none; }
 
@@ -188,9 +190,10 @@
 .caseDetail .txt p { font-family: "宋体"; font-size: 14px; line-height: 26px; color: #6a6969; }
 .caseDetail .img { width: 6rem; margin: 0 auto; }
 .caseDetail .img img { width: 100%; }
-.caseDetail .btns { position: absolute; top: 0; left: 0; width: 1.8rem; height: .5rem; background: url(../images/btn-bg.png) no-repeat center center; background-size: auto .5rem; }
+.caseDetail .btns { position: absolute; top: 0; left: 0; width: 1.8rem; height: .5rem; }
 .caseDetail .btns a {font-family: "宋体"; font-size: .5rem; line-height: .5rem;  position: absolute; top: 0;display: block; width: .5rem; height: .5rem; margin: 0 4px; text-align: center; color: #fff; background: #7d7d7d; }
 .caseDetail .btns a.active { background: #e70014; }
+.caseDetail .btns a.back{ background: url(../images/btn-bg.png); left: .58rem; background-size: auto .5rem; }
 .caseDetail .btns a.prev { left: 0; }
 .caseDetail .btns a.next { right: 0; }
 
@@ -224,7 +227,7 @@
 .contact .QRcode p { font-size: 16px; font-weight: bold; line-height: 34px; color: #000; }
 .contact .address { width: 100%; }
 .contact .address .tel { font-family: "Candara"; font-size: 26px; line-height: 40px; padding-left: 15px; color: #1c1c1c; background: url(../images/phone-bg.png) no-repeat left center; background-size: auto 30px; }
-.contact .address .txt p { font-size: 14px; line-height: 30px; color: #1c1c1c; }
+.contact .address .txt p { font-family: "Times New Roman","微软正黑体"; font-weight: bold; font-size: 14px; line-height: 30px; color: #1c1c1c; }
 
 /* 行业新闻 */
 .news { width: 6rem; margin: 0 auto; padding-top: 1.92rem; background: url(../images/news-title.png) no-repeat; background-size: auto 1.92rem; }
@@ -236,6 +239,8 @@
 .newsBody .news-content .info { font-family: "宋体"; font-size: 12px; line-height: 24px; text-align: center; color: #7f7f7f; }
 .newsBody .news-content .info span { display: inline-block; }
 .newsBody .news-content .article { width: 5.8rem; margin: .25rem auto 0; padding-bottom: .4rem; }
+.newsBody .news-content .article p{ font-family: "宋体"; font-size: 14px; line-height: 30px; color: #696969; }
+
 .newsBody .news-aside { width: 5.4rem; margin: 0 auto; padding-top: 20px; }
 .newsBody .news-aside .news-list h2 { font-size: 16px; font-weight: bold; line-height: 30px; padding-top: 4px; color: #010101; }
 .newsBody .news-aside .news-list li { font-family: "宋体"; font-size: 14px; line-height: 36px; position: relative; overflow: hidden; padding-left: 16px; white-space: nowrap; text-overflow: ellipsis; color: #7f7f7f; border-bottom: 1px solid #bfbfbf; }
