@@ -16,6 +16,7 @@
 
 .banner { width: 100%; min-width: 1200px; height: 790px; }
 .banner .swiper-slide { width: 100%; min-width: 1200px; height: 790px; background-position: top center; }
+/*.banner .swiper-pagination-bullet{ background: #000; }*/
 
 .section { width: 100%; min-width: 1200px; }
 .section1 { padding-bottom: 45px; }
@@ -121,8 +122,8 @@
 .section5 .sTitle h2 { color: #fff; }
 .section5 .s5p { font-family: "宋体"; font-size: 14px; text-align: center; color: #fff; }
 .section5 .address { margin-top: 20px; text-align: center; }
-.section5 .address p.p1 { font-family: "Times New Roman", "微软正黑体"; font-weight: bold; font-size: 14px; line-height: 28px; color: #fff; }
-.section5 .address p.p2 { font-family: "Times New Roman","微软正黑体"; font-size: 14px; line-height: 28px; color: #fff; }
+.section5 .address p.p1 { font-family: "Times New Roman", "微軟正黑體"; font-weight: bold; font-size: 14px; line-height: 28px; color: #fff; }
+.section5 .address p.p2 { font-family: "Times New Roman","微軟正黑體"; font-size: 14px; line-height: 28px; color: #fff; }
 .section5 .address p.p2 a{ color: #fff; }
 .section5 .address p.tel a { font-family: "Candara"; font-size: 45px; line-height: 48px;padding-left: 23px; color: #fff; background: url(../images/phone-bg.png) no-repeat left center; }
 .section5 .QR-code { width: 300px; height: 300px; margin: 30px auto 0; }
@@ -159,7 +160,7 @@
 .case{ width: 100%; min-width: 1200px; background: url(../images/case-top-bg.png) no-repeat; }
 .caseTop{ width: 1200px; height: 240px; margin: 0 auto; background: url(../images/case-title.png) no-repeat #fff; }
 .caseTop>.floatr{ width: 330px; }
-.caseTop .position{ margin-top: 70px; }
+.caseTop .position{ padding-top: 70px; }
 .caseTop .position a{ color: #1f2228; }
 .caseTop .position p{ font-family: "宋体"; font-size: 12px; color: #1f2228; line-height: 30px; padding-left: 15px; background: url(../images/arrow.png) left center no-repeat; }
 .caseTop .minNav li{ float: left; margin-left: 7px; width: 99px; height: 31px; text-align: center; line-height: 31px; border: 1px solid #1b1b1b; background: #49494e; }
@@ -237,7 +238,7 @@
 .news{ width: 100%; min-width: 1200px; background: url(../images/news-top-bg.png) no-repeat; padding-bottom: 130px; }
 .newsTop{ width: 1200px; height: 230px; margin: 0 auto; background: url(../images/news-title.png) no-repeat #fff; }
 .newsTop>.floatr{ width: 330px; }
-.newsTop .position{ margin-top: 70px; }
+.newsTop .position{ padding-top: 70px; }
 .newsTop .position a{ color: #1f2228; }
 .newsTop .position p{ font-family: "宋体"; font-size: 12px; color: #1f2228; line-height: 30px; padding-left: 15px; background: url(../images/arrow.png) left center no-repeat; }
 .newsBody{ width: 1200px; margin: 0 auto; }
@@ -266,5 +267,5 @@
 .sub-address .QR-code { width: 300px; height: 300px; margin: 30px auto 0; }
 
 .pages{ width: 100%; height:20px; text-align: center; margin-bottom: 100px;}
-.pages span,.pages a{ display: inline-block; width: 20px; height: 20px; border-radius: 50%; background: #7d7d7d; margin: 0 7px; font-size: 0; line-height: 20px;}
+.pages span,.pages a{ display: inline-block; width: 20px; height: 20px; border-radius: 50%; background: #7d7d7d; margin: 0 2px; font-size: 0; line-height: 20px;}
 .pages .current{background:#e70014; color: #fff;}
