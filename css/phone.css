@@ -6,11 +6,12 @@
  * @version 1.0
  */
 
-.btns { width: 100%; height: 20px; margin: .4rem 0 .7rem;text-align: center; }
-.btns a {font-family: "宋体"; font-size: .5rem; line-height: .48rem;  display: inline-block; width: .48rem; height: .48rem; margin: 0 4px; text-align: center;color: #fff; background: #7d7d7d; }
+.btns { width: 100%; height: 20px; margin: .4rem 0 .7rem; text-align: center; }
+.btns a { display: inline-block; width: .48rem; height: .48rem; margin: 0 2px; }
+.btns a img{ width: 100%; height: 100%; vertical-align: top;}
 
 .pages { width: 100%; height: 20px; margin-bottom: 100px;text-align: center; }
-.pages span, .pages a {font-size: 0; line-height: 20px; display: inline-block; width: 20px; height: 20px; margin: 0 7px; border-radius: 50%; background: #7d7d7d; }
+.pages span, .pages a {font-size: 0; line-height: 10px; display: inline-block; width: 10px; height: 10px; margin: 0 1px; border-radius: 50%; background: #7d7d7d; }
 .pages .current {color: #fff; background: #e70014; }
 
 .wrap { width: 6rem; margin: 0 auto; }
@@ -84,7 +85,7 @@
 .section3 .s3box3 .s3Rtop .item:after { position: absolute; z-index: 1; top: .3rem; left: 0; display: block; width: 80%; height: 0; content: ""; border-bottom: 1px dashed #84868a; }
 .section3 .s3Rtop .item span, .section3 .s3Rtop .item img { position: relative; z-index: 5; }
 .section3 .s3Rtop .item span { font-family: "宋体"; font-size: .14rem; padding-left: 5px; color: rgba( 255, 255, 255, .67 ); background: #1f2229; }
-.section3 .s3Rtop .item span strong { font-family: "Microsoft Tai Le"; font-size: .3rem; font-weight: normal; padding: 0 2px; }
+.section3 .s3Rtop .item span strong { font-family: "微软雅黑"; font-weight: bold; font-size: .3rem; font-weight: normal; padding: 0 2px; }
 .section3 .s3Rtop .item img { width: .6rem; }
 .section3 .s3box3 .s3Rmid { padding-top: .15rem; }
 .section3 .s3box3 .s3Rmid p {font-family: "宋体"; font-size: .14rem; line-height: .28rem;  width: 5.4rem; color: rgba( 255, 255, 255, .67 ); }
@@ -107,10 +108,12 @@
 .section4 .sTitle .p2 { color: #fff; }
 .section4 .sTitle h2 { color: #fff; }
 .section4 .s4p { font-family: "宋体"; font-size: .14rem; text-align: center; color: #fff; }
-.section4 .s4list { overflow: hidden; width: 6.3rem; margin: .2rem auto 0; padding-bottom: .9rem; }
+.section4 .s4list { overflow: hidden; width: 6.3rem; margin: .2rem auto 0; padding-bottom: 30px; }
 .section4 .s4list ul { overflow: hidden; width: 6.4rem; }
 .section4 .s4list li { position: relative; float: left; width: 3.1rem; height: 2.55rem; margin-right: .06rem; margin-bottom: .06rem; }
 .section4 .s4list li img { width: 100%; height: 100%; }
+.section4 .s4list .swiper-pagination-bullet { width: 8px; height: 8px; margin: 0 2px; opacity: .55; background: #fff; }
+.section4 .s4list .swiper-pagination-bullet-active { opacity: 1; }
 
 /* 888888888888888888 */
 /*.section4 .s4list li:hover .hoverShow { display: block; }
@@ -153,19 +156,19 @@
 .section6 .s6list li:hover a { color: #d70e23; }
 .section6 .s6list li:hover:before { background: #d70e23; }
 
-.floatBar { position: fixed; z-index: 100; top: 30%; right: 0; width: 50px; padding: 15px 0; border-radius: 5px; background: #32373d; }
-.floatBar .item { width: 50px; height: 65px; text-align: center; }
-.floatBar .item i { font-size: 30px; line-height: 65px; text-align: center; color: #d0d0d0; }
-.floatBar .item .box { position: absolute; top: 35px; right: 50px; display: none; width: 153px; height: 163px; border-radius: 5px 0 0 5px; background: #32373d; }
-.floatBar .item .wechat-box { line-height: 163px; text-align: center; }
-.floatBar .item .wechat-box img { width: 125px; height: 125px; }
-.floatBar .item .phone-box { box-sizing: border-box; padding-top: 12px; }
-.floatBar .item .phone-box .tel-number { padding-top: 20px; padding-left: 23px; text-align: left; }
+.floatBar { position: fixed; z-index: 100; top: 30%; right: 0; width: 35px; padding: 15px 0; border-radius: 5px; background: #32373d; }
+.floatBar .item { width: 35px; height: 45px; text-align: right; }
+.floatBar .item i { font-size: 22px; line-height: 45px; padding-right: 2px; color: #d0d0d0; }
+.floatBar .item .box { position: absolute; top: 15px; right: 35px; display: none; width: 133px; height: 133px; border-radius: 5px 0 0 5px; background: #32373d; }
+.floatBar .item .wechat-box { line-height: 133px; text-align: center; }
+.floatBar .item .wechat-box img { width: 115px; height: 115px; }
+.floatBar .item .phone-box { box-sizing: border-box; padding-top: 6px; }
+.floatBar .item .phone-box .tel-number { padding-top: 15px; padding-left: 15px; text-align: left; }
 .floatBar .phone-box .tel-number .p1 { font-family: "宋体"; font-size: 12px; line-height: 20px; color: #fff; }
 .floatBar .phone-box .tel-number .p2 a { font-family: "Times New Roman"; font-size: 18px; line-height: 20px; color: #fff; }
-.floatBar .item .qq-box { box-sizing: border-box; padding-top: 24px; text-align: left; }
-.floatBar .item .qq-box p { font-family: "宋体"; font-size: 12px; line-height: 24px; margin-left: 27px; color: #fff; }
-.floatBar .item .qq-btn { width: 74px; height: 22px; margin: 9px auto 8px 27px; padding: 5px 7px; border: 1px solid #ca192b; border-radius: 4px; }
+.floatBar .item .qq-box { box-sizing: border-box; padding-top: 12px; text-align: left; }
+.floatBar .item .qq-box p { font-family: "宋体"; font-size: 12px; line-height: 18px; margin-left: 20px; color: #fff; }
+.floatBar .item .qq-btn { width: 74px; height: 22px; margin: 9px auto 8px 20px; padding: 5px 7px; border: 1px solid #ca192b; border-radius: 4px; }
 
 /* 案例展示 */
 .case { width: 100%; }
@@ -198,13 +201,13 @@
 .caseDetail .btns a.next { right: 0; }
 
 .caseDetail .pages { margin-bottom: 30px; }
-.caseDetail .pages span, .caseDetail .pages a { margin: 0 3px; }
+.caseDetail .pages span, .caseDetail .pages a { margin: 0 1px; }
 
 /* 关于我们 */
 .about { overflow: hidden; width: 100%; height: 9.2rem; background: url(../images/about-phone-bg.jpg) top center no-repeat; background-size: cover; }
 .about .wrap { position: relative; padding-top: .24rem; }
 .about .about-box .btn {float: none;  width: 1.16rem; height: 1.35rem; }
-.about .about-box .btn a { font-size: .32rem; line-height: .64rem; display: block; width: 1.16rem; height: .64rem; margin-bottom: 2px; text-align: center; color: #fff; background: rgba(230, 0, 15,.35); }
+.about .about-box .btn a { font-size: .2rem; line-height: .64rem; display: block; width: 1.16rem; height: .64rem; margin-bottom: 2px; text-align: center; color: #fff; background: rgba(230, 0, 15,.35); }
 .about .about-box .btn a.active { background: rgba(230, 0, 15,.9); }
 .about .about-box .txt {float: none;  width: 100%; margin-top: .8rem; }
 .about .about-box .txt .item {width: 5.5rem;  padding-left: .1rem; font-family: "微軟正黑體"; }
