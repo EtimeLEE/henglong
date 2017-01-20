@@ -7,6 +7,8 @@
  */
 
 .wrap { width: 1200px; margin: 0 auto; }
+.sj-none{ display: block; }
+.pc-none{ display: none; }
 /* 首页 */
 .header { width: 100%; min-width: 1200px; height: 60px; background: #1f2228; }
 .header .logo { font-family: "宋体"; font-size: 14px; line-height: 60px; color: #fff; }
@@ -127,6 +129,7 @@
 .section5 .address p.p2 a{ color: #fff; }
 .section5 .address p.tel a { font-family: "Candara"; font-size: 45px; line-height: 48px;padding-left: 23px; color: #fff; background: url(../images/phone-bg.png) no-repeat left center; }
 .section5 .QR-code { width: 300px; height: 300px; margin: 30px auto 0; }
+.section5 .QR-code img { width: 300px; height: 300px; }
 
 .section6 {width: 100%; min-width: 1200px; padding: 25px 0 30px;  background: #1f2228; }
 .section6 .sTitle { background-image: url(../images/indexTitle-bg3.png); }
@@ -179,15 +182,17 @@
 
 .caseList .swiper-pagination-bullet { width: 16px; height: 16px; border-radius: 50%; background: #7d7d7d; }
 .caseList .swiper-pagination-bullet-active { background: #e70014; }
-
+.caseList .btns{ display: none; }
 /* 客户案例 内页 */
 .caseDetail{ width: 1200px; margin: 0 auto 100px; position: relative; }
 .caseDetail .txt{ width: 160px; padding-top: 48px; float: left; }
 .caseDetail .txt h1{ line-height: 40px; font-size: 14px; font-weight: bold; color: #111; }
 .caseDetail .txt p{ line-height: 26px; font-family: "宋体"; font-size: 12px; color: #6a6969; }
 .caseDetail .img{ width: 975px; float: right; }
+.caseDetail .img img{ width: 100%; }
 
 .caseDetail .btns{ position: absolute; width: 154px; height:42px; top: 0; left: 0;}
+.caseDetail .btns img{ vertical-align: top; }
 .caseDetail .btns a{ position: absolute; display: block; width: 42px; height: 42px; background: #7d7d7d; margin: 0 4px; font-size: .5rem; line-height: 42px; font-family: "宋体"; color: #fff; text-align: center; top: 0;}
 .caseDetail .btns a:hover{ background: #e70014; }
 .caseDetail .btns a.back{ background: url(../images/btn-bg.png); left: 51px; }
@@ -258,6 +263,8 @@
 .newsBody .news-aside .box .QRcode{ width: 210px; height: 210px; margin: 0 auto; }
 .newsBody .news-aside .box .QRcode img{ width: 100%; }
 .newsBody .news-aside .btns{ display: none; }
+.newsBody .news-aside #scrollArea{ width: 280; max-height:200px; overflow: hidden; }
+
 
 .sub-address{ width: 100%; min-width: 1200px; background: #1f2228; padding: 30px 0 55px; }
 .sub-address .address { margin-top: 20px; text-align: center; }
@@ -265,6 +272,7 @@
 .sub-address .address p.p1 { font-size: 14px; line-height: 28px; color: #fff; }
 .sub-address .address p.tel span { font-family: "Candara"; font-size: 45px; line-height: 48px;padding-left: 23px; color: #fff; background: url(../images/phone-bg.png) no-repeat left center; }
 .sub-address .QR-code { width: 300px; height: 300px; margin: 30px auto 0; }
+.sub-address .QR-code img{ width: 300px; height: 300px; }
 
 .pages{ width: 100%; height:20px; text-align: center; margin-bottom: 100px;}
 .pages span,.pages a{ display: inline-block; width: 20px; height: 20px; border-radius: 50%; background: #7d7d7d; margin: 0 2px; font-size: 0; line-height: 20px;}

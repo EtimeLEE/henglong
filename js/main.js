@@ -63,7 +63,7 @@ $(function() {
 	        event.stopPropagation();
 	        $(".nav ul").toggle();
 	    });
-	    $(document).click(function () {
+	    $(document).on("click",function(){
 	        $(".nav ul").hide();
 	    });
 	    $(".nav ul").click(function (event) {
