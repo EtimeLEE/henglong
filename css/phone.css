@@ -55,7 +55,7 @@
 
 .section2 { padding-top: .38rem; background: url(../images/s2-bg.png) no-repeat top center; background-size: auto .36rem; }
 .section .sTitle { text-align: center; background-repeat: no-repeat; background-position: top center; background-size: 1.66rem; }
-.section .sTitle .p1 { font-family: "微软雅黑"; font-size: 1.2rem; line-height: 1.2rem; color: #1f2229; }
+.section .sTitle .p1 { font-family: "Helvetica"; font-size: 1.2rem; line-height: 1.2rem; color: #1f2229; }
 .section .sTitle .p2 { font-family: "Sakkal Majalla"; font-size: .12rem; font-weight: bold; line-height: .18rem; letter-spacing: 2px; text-transform: uppercase; color: #000; }
 .section .sTitle h2 { font-family: "宋体"; font-size: .16rem; line-height: .34rem; padding-top: .2rem; color: #1f2229; }
 .section2 .sTitle { background-image: url(../images/indexTitle-bg1.png); }
